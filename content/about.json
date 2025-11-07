@@ -1,0 +1,35 @@
+{
+  "hero_lead": "The AI‑Lab @ Roma Tre is part of the DICITA Department at Roma Tre University and of the <strong>Centro di Eccellenza DTC Lazio</strong>. We investigate modern AI with a focus on Large Language Models, User Modeling & Recommender Systems, Computer Vision, and Graph‑based Learning, combining rigorous research with real‑world applications.",
+  "paragraphs": [
+    "The AI program at Roma Tre University comprises a multidisciplinary group of researchers working on methods and tools for intelligent systems.",
+    "The group belongs to DICITA, selected by the Italian Ministry (MIUR) as a “Department of Excellence” (2018–2022). In 2017, two faculty members joined the national AI Task Force promoted by AgID; since 2018, the lab has been part of the CINI AIIS laboratory. We are a partner of the Rome Technopole research project (Flagship 6 — AI, VR & Digital Twin for advanced engineering and aerospace)."
+  ],
+  "stats": [
+    {
+      "num": "20+",
+      "label": "projects"
+    },
+    {
+      "num": "150+",
+      "label": "publications"
+    },
+    {
+      "num": "10",
+      "label": "partners"
+    }
+  ],
+  "links": [
+    {
+      "title": "Roma Tre University",
+      "url": "https://www.uniroma3.it/en/"
+    },
+    {
+      "title": "DICITA Department",
+      "url": "https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/"
+    },
+    {
+      "title": "Centro di Eccellenza DTC Lazio",
+      "url": "https://dtclazio.it/"
+    }
+  ]
+}

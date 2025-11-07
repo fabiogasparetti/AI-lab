@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Teaching",
+      "text": "Four courses offering an AI specialization: Machine Learning, Deep Learning & Generative Models, AI Logics & Planning, Intelligent Systems for the Internet."
+    },
+    {
+      "title": "Research activity",
+      "text": "New methodologies validated on real‑world case studies, supported by GPU‑based architectures and modern LLM fine‑tuning."
+    },
+    {
+      "title": "Third Mission",
+      "text": "Technology transfer and cooperation with industry and institutions."
+    },
+    {
+      "title": "Community",
+      "text": "Editorial boards, program committees, seminars and workshops."
+    }
+  ]
+}

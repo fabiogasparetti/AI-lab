@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "LLM for transparency",
+      "text": "Agents and RAG pipelines to query institutional archives via natural language."
+    },
+    {
+      "title": "Multimodal recommendation",
+      "text": "Temporal, visual and textual signals for digital art platforms and industry."
+    },
+    {
+      "title": "Vision & AR",
+      "text": "Real‑time scene analysis and virtual advertising in sports broadcasting."
+    },
+    {
+      "title": "Graph‑based learning",
+      "text": "Temporal graph networks to study online communities and dynamics."
+    }
+  ]
+}

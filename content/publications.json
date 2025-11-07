@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "title": "Multiple‑Choice Question Generation Using LLMs",
+      "venue": "UMAP Adjunct 2024",
+      "authors": "Biancini, Ferrato, Limongelli",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Artwork Segmentation in Eye‑Tracking Experiments",
+      "venue": "UMAP Adjunct 2024",
+      "authors": "Ferrato, Limongelli, Mezzini, Sansonetti, Micarelli",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Cultural Impact on Digital Ecosystems",
+      "venue": "IUI 2024 Workshops",
+      "authors": "Marone, Sansonetti, Gasparetti, Micarelli",
+      "type": "Workshop"
+    },
+    {
+      "title": "SOCIALIZE 2024",
+      "venue": "Companion Proc. IUI 2024",
+      "authors": "Gasparetti, Gena, Sansonetti, Tkalcic",
+      "type": "Workshop"
+    },
+    {
+      "title": "Towards Empathetic Social Robots",
+      "venue": "IUI 2024 Workshops",
+      "authors": "Battisti et al.",
+      "type": "Short"
+    }
+  ],
+  "full_list_url": "#"
+}

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "title": "Eye tracking",
+      "text": "Tobii Pro Glasses 3 wearable eye tracker with 16 illuminators and 4 eye cameras."
+    },
+    {
+      "title": "GPU computing",
+      "text": "Multi‑GPU Supermicro workstation based on NVIDIA Tesla P100 with NVLink architecture."
+    },
+    {
+      "title": "Large Language Models",
+      "text": "Access to state‑of‑the‑art LLMs for customization, fine‑tuning and evaluation."
+    }
+  ]
+}

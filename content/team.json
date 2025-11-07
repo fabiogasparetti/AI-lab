@@ -1,0 +1,42 @@
+{
+  "faculty": [
+    {
+      "role": "Head",
+      "name": "Fabio Gasparetti",
+      "position": "Full Professor"
+    },
+    {
+      "role": "Head",
+      "name": "Alessandro Micarelli",
+      "position": "Full Professor"
+    },
+    {
+      "name": "Carla Limongelli",
+      "position": "Associate Professor"
+    },
+    {
+      "name": "Giuseppe Sansonetti",
+      "position": "Assistant Professor"
+    }
+  ],
+  "phd": [
+    {
+      "name": "Alessio Ferrato",
+      "position": "PhD Student"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Claudio Biancalana",
+      "affiliation": "ANAC"
+    },
+    {
+      "name": "Andrea Orlandini",
+      "affiliation": "ISTC‑CNR"
+    },
+    {
+      "name": "Filippo Sciarrone",
+      "affiliation": "Universitas Mercatorum"
+    }
+  ]
+}

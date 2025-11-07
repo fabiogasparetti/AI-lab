@@ -1,0 +1,115 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://ai-lab-03.netlify.app
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - label: "About"
+    name: "about"
+    files:
+      - label: "About data"
+        name: "about_data"
+        file: "content/about.json"
+        format: "json"
+        fields:
+          - {label: "Hero lead (HTML)", name: "hero_lead", widget: "text"}
+          - {label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"}}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Number", name: "num", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+          - label: "Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+
+  - label: "Focus"
+    name: "focus"
+    files:
+      - label: "Focus cards"
+        name: "focus_cards"
+        file: "content/focus.json"
+        format: "json"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Text", name: "text", widget: "text"}]}
+
+  - label: "Team"
+    name: "team"
+    files:
+      - label: "Team members"
+        name: "team_members"
+        file: "content/team.json"
+        format: "json"
+        fields:
+          - {label: "Faculty", name: "faculty", widget: "list", fields: [{label: "Role", name: "role", widget: "string", required: false}, {label: "Name", name: "name", widget: "string"}, {label: "Position", name: "position", widget: "string"}]}
+          - {label: "PhD Students", name: "phd", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Position", name: "position", widget: "string", default: "PhD Student"}]}
+          - {label: "Collaborators", name: "collaborators", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Affiliation", name: "affiliation", widget: "string"}]}
+
+  - label: "Research"
+    name: "research"
+    files:
+      - label: "Research highlights"
+        name: "research_items"
+        file: "content/research.json"
+        format: "json"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Text", name: "text", widget: "text"}]}
+
+  - label: "Teaching"
+    name: "teaching"
+    files:
+      - label: "Teaching links"
+        name: "teaching_links"
+        file: "content/teaching.json"
+        format: "json"
+        fields:
+          - {label: "Links", name: "links", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "URL", name: "url", widget: "string"}]}
+
+  - label: "Laboratory"
+    name: "lab"
+    files:
+      - label: "Lab equipment"
+        name: "lab_items"
+        file: "content/lab.json"
+        format: "json"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Text", name: "text", widget: "text"}]}
+
+  - label: "Publications"
+    name: "publications"
+    files:
+      - label: "Recent publications"
+        name: "pubs"
+        file: "content/publications.json"
+        format: "json"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Venue", name: "venue", widget: "string"}, {label: "Authors", name: "authors", widget: "string"}, {label: "Type", name: "type", widget: "string"}]}
+          - {label: "Full list URL", name: "full_list_url", widget: "string", required: false}
+
+  - label: "News"
+    name: "news"
+    files:
+      - label: "News items"
+        name: "news_items"
+        file: "content/news.json"
+        format: "json"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [{label: "Text", name: "text", widget: "text"}]}
+
+  - label: "Contacts"
+    name: "contacts"
+    files:
+      - label: "Contacts info"
+        name: "contacts_info"
+        file: "content/contacts.json"
+        format: "json"
+        fields:
+          - {label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"}}
+          - {label: "Links", name: "links", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "URL", name: "url", widget: "string"}]}

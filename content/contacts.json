@@ -1,0 +1,21 @@
+{
+  "paragraphs": [
+    "Email: ai@dia.uniroma3.it",
+    "Pedestrian gate: Via Vito Volterra 48 — 00146 Rome, Italy",
+    "Alternative gate: Via della Vasca Navale 79 — 00146 Rome, Italy"
+  ],
+  "links": [
+    {
+      "title": "Roma Tre University",
+      "url": "https://www.uniroma3.it/en/"
+    },
+    {
+      "title": "DICITA Department",
+      "url": "https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/"
+    },
+    {
+      "title": "Centro di Eccellenza DTC Lazio",
+      "url": "https://dtclazio.it/"
+    }
+  ]
+}
