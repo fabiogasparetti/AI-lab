@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI-Lab @ Roma Tre</title>
-  <meta name="description" content="Laboratorio di Intelligenza Artificiale — Università Roma Tre">
+  <title>AI-Lab @ Roma Tre — Artificial Intelligence Research Group</title>
+  <meta name="description" content="AI-Lab @ Roma Tre — Artificial Intelligence Research Group at Roma Tre University">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <div class="brand">
-        <img class="logo" src="assets/roma-tre-logo.jpg" alt="Roma Tre logo" width="120" height="36">
-        <a class="title" href="#home" aria-label="AI-Lab @ Roma Tre">AI‑Lab @ Roma Tre</a>
-      </div>
+      <a class="brand" href="#home" aria-label="AI-Lab @ Roma Tre">AI‑Lab @ Roma Tre</a>
       <nav>
-        <a href="#about">Il laboratorio</a>
-        <a href="#people">Persone</a>
-        <a href="#projects">Progetti</a>
-        <a href="#pubs">Pubblicazioni</a>
-        <a href="#contact" class="btn">Contatti</a>
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#team">Team</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#lab">Laboratory</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contacts" class="btn">Contacts</a>
       </nav>
     </div>
   </header>
@@ -30,14 +31,16 @@
   <main id="home">
     <section class="hero">
       <div class="container">
-        <h1 class="reveal">Intelligenza Artificiale — Ricerca, Didattica, Trasferimento</h1>
+        <h1 class="reveal title-hero">Artificial Intelligence Research Group</h1>
         <p class="lead reveal">
-          AI‑Lab @ Roma Tre studia e sviluppa <strong>LLM</strong>, <strong>Recommender Systems</strong>, <strong>Visione</strong> e <strong>Grafi</strong>,
-          coniugando rigore scientifico e applicazioni per industria e pubblica amministrazione.
+          The AI‑Lab @ Roma Tre is part of the Department of Civil, Computer, and Aeronautical Engineering (DICITA) at
+          Roma Tre University and of the <strong>Centro di Eccellenza DTC Lazio</strong>. We investigate modern AI with a focus on
+          <strong>Large Language Models</strong>, <strong>User Modeling & Recommender Systems</strong>, <strong>Computer Vision</strong>, and <strong>Graph‑based Learning</strong>,
+          combining rigorous research with real‑world applications for industry and public administrations.
         </p>
         <div class="cta reveal">
-          <a href="#projects" class="btn">Scopri i progetti</a>
-          <a href="#pubs" class="btn btn-ghost">Leggi le pubblicazioni</a>
+          <a href="#research" class="btn">Explore Projects</a>
+          <a href="#publications" class="btn btn-ghost">Recent Publications</a>
         </div>
       </div>
     </section>
@@ -45,87 +48,179 @@
     <section id="about" class="section">
       <div class="container grid two reveal">
         <div>
-          <h2>Il laboratorio</h2>
+          <h2>About us</h2>
           <p>
-            Siamo un gruppo di ricerca del Dipartimento di Ingegneria dell’Università degli Studi Roma Tre.
-            Le nostre attività includono modellazione dell’utente, raccomandazione, NLP con LLM, computer vision e analisi su grafi.
+            The AI program at Roma Tre University comprises a multidisciplinary group of researchers working on methods and tools for
+            intelligent systems. Our lab embraces formal and theoretically grounded investigations, together with exploratory and empirical approaches.
           </p>
-          <ul class="checklist">
-            <li>LLM, RAG e agenti</li>
-            <li>User Modeling &amp; Recommender Systems</li>
-            <li>Visione artificiale, AR e scene analysis</li>
-            <li>Grafi dinamici e TGN</li>
-          </ul>
+          <p>
+            The group belongs to <strong>DICITA</strong>, selected by the Italian Ministry (MIUR) as a “Department of Excellence” (2018–2022).
+            In 2017, two faculty members joined the national <strong>AI Task Force</strong> promoted by <a href="https://www.agid.gov.it/en" target="_blank" rel="noopener">AgID</a>.
+            Since 2018, the lab has been an active node of the national <strong><a href="https://www.consorzio-cini.it/index.php/en/laboratori-nazionali/laboratorio-di-intelligenza-artificiale-e-sistemi-intelligenti-aiis" target="_blank" rel="noopener">CINI AIIS</a></strong> laboratory.
+            We are a partner of the <strong><a href="https://www.uniroma3.it/ricerca/progetti-pnrr/rome-technopole-innovation-ecosystem/" target="_blank" rel="noopener">Rome Technopole</a></strong> research project (Flagship 6 — AI, VR & Digital Twin for advanced engineering and aerospace).
+          </p>
         </div>
         <div class="card">
-          <h3>Dati in breve</h3>
+          <h3>At a glance</h3>
           <div class="stats">
-            <div><span class="num">20+</span><span class="lbl">progetti</span></div>
-            <div><span class="num">150+</span><span class="lbl">pubblicazioni</span></div>
-            <div><span class="num">10</span><span class="lbl">partner</span></div>
+            <div><span class="num">20+</span><span class="lbl">projects</span></div>
+            <div><span class="num">150+</span><span class="lbl">publications</span></div>
+            <div><span class="num">10</span><span class="lbl">partners</span></div>
+          </div>
+          <div class="links-list">
+            <a href="https://www.uniroma3.it/en/" target="_blank" rel="noopener">Roma Tre University</a>
+            <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/" target="_blank" rel="noopener">DICITA Department</a>
+            <a href="https://dtclazio.it/" target="_blank" rel="noopener">Centro di Eccellenza DTC Lazio</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="people" class="section alt">
+    <section id="focus" class="section alt">
       <div class="container reveal">
-        <h2>Persone</h2>
-        <p>Docenti, ricercatori, dottorandi e studenti collaborano in modo aperto e interdisciplinare.</p>
-        <div class="avatars">
-          <div class="avatar"><span>FG</span><small>Prof.</small></div>
-          <div class="avatar"><span>AM</span><small>Ric.</small></div>
-          <div class="avatar"><span>GS</span><small>Ric.</small></div>
-          <div class="avatar"><span>LB</span><small>PhD</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container reveal">
-        <h2>Progetti</h2>
+        <h2>Our focus</h2>
         <div class="cards">
           <div class="card">
-            <h3>LLM per la trasparenza</h3>
-            <p>Agenti e RAG per interrogare archivi istituzionali con linguaggio naturale.</p>
+            <h3>Teaching</h3>
+            <p>Four courses offering an AI specialization: Machine Learning, Deep Learning & Generative Models, AI Logics & Planning, Intelligent Systems for the Internet.</p>
           </div>
           <div class="card">
-            <h3>Raccomandazione multimodale</h3>
-            <p>Modelli temporali, visivi e testuali per arte digitale e industria.</p>
+            <h3>Research activity</h3>
+            <p>New methodologies validated on real‑world case studies, supported by GPU‑based architectures and modern LLM fine‑tuning.</p>
           </div>
           <div class="card">
-            <h3>Visione &amp; AR in tempo reale</h3>
-            <p>Pubblicità virtuale e analisi di scena su flussi video live.</p>
+            <h3>Third Mission</h3>
+            <p>Technology transfer and cooperation with industry and institutions to ensure impactful transition of research results.</p>
+          </div>
+          <div class="card">
+            <h3>Community</h3>
+            <p>Editorial boards, program committees, seminars and workshops that foster community‑engaged research.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="pubs" class="section alt">
+    <section id="team" class="section">
       <div class="container reveal">
-        <h2>Pubblicazioni</h2>
-        <ul class="pubs">
-          <li><strong>Vista:</strong> Raccomandazione artistica multimodale (UMAP).</li>
-          <li><strong>TGN:</strong> Dinamiche di comunità su grafi temporali.</li>
-          <li><strong>CuratorNet:</strong> Segnali sociali per ranking di opere.</li>
+        <h2>The team</h2>
+        <p>Faculty, researchers and PhD students.</p>
+        <div class="people">
+          <div class="person"><span class="tag">Head</span><strong>Fabio Gasparetti</strong> — Full Professor</div>
+          <div class="person"><span class="tag">Head</span><strong>Alessandro Micarelli</strong> — Full Professor</div>
+          <div class="person"><strong>Carla Limongelli</strong> — Associate Professor</div>
+          <div class="person"><strong>Giuseppe Sansonetti</strong> — Assistant Professor</div>
+          <div class="person"><strong>Alessio Ferrato</strong> — PhD Student</div>
+        </div>
+        <h3 class="sub">Collaborators</h3>
+        <ul class="collab">
+          <li><strong>Claudio Biancalana</strong> — ANAC</li>
+          <li><strong>Andrea Orlandini</strong> — ISTC‑CNR</li>
+          <li><strong>Filippo Sciarrone</strong> — Universitas Mercatorum</li>
         </ul>
-        <a href="#" class="btn btn-ghost">Vedi tutte</a>
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="research" class="section alt">
       <div class="container reveal">
-        <h2>Contatti</h2>
-        <p>Dipartimento di Ingegneria — Università Roma Tre</p>
-        <p>Email: <a href="mailto:ai-lab@example.uniroma3.it">ai-lab@example.uniroma3.it</a></p>
-        <p>Via della Vasca Navale 79, 00146 Roma</p>
+        <h2>Research activities</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>LLM for transparency</h3>
+            <p>Agents and RAG pipelines to query institutional archives via natural language.</p>
+          </div>
+          <div class="card">
+            <h3>Multimodal recommendation</h3>
+            <p>Temporal, visual and textual signals for digital art platforms and industry.</p>
+          </div>
+          <div class="card">
+            <h3>Vision & AR</h3>
+            <p>Real‑time scene analysis and virtual advertising in sports broadcasting.</p>
+          </div>
+          <div class="card">
+            <h3>Graph‑based learning</h3>
+            <p>Temporal graph networks to study online communities and dynamics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <div class="container reveal">
+        <h2>Teaching</h2>
+        <p>We contribute to Bachelor, Master and PhD programmes.</p>
+        <ul class="links-list">
+          <li><a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en//corsi/dipartimento-di-ingegneria-civile-informatica-e-delle-tecnologie-aeronautiche/l/2024-2025/computer-science-engineering-and-artificial-intelligence-0580706200800002" target="_blank" rel="noopener">Computer Science Engineering and Artificial Intelligence (BSc)</a></li>
+          <li><a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en//corsi/dipartimento-di-ingegneria-civile-informatica-e-delle-tecnologie-aeronautiche/lm/2024-2025/computer-science-and-engineering-0580707303300001" target="_blank" rel="noopener">Computer Science and Engineering (MSc)</a></li>
+          <li><a href="https://www.uniroma3.it/en/dottorato/2024/computer-science-and-automation-dott628/" target="_blank" rel="noopener">PhD in Computer Science and Automation</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="lab" class="section alt">
+      <div class="container reveal">
+        <h2>The laboratory</h2>
+        <div class="cards three">
+          <div class="card">
+            <h3>Eye tracking</h3>
+            <p>Tobii Pro Glasses 3 wearable eye tracker with 16 illuminators and 4 eye cameras.</p>
+          </div>
+          <div class="card">
+            <h3>GPU computing</h3>
+            <p>Multi‑GPU Supermicro workstation based on NVIDIA Tesla P100 with NVLink architecture.</p>
+          </div>
+          <div class="card">
+            <h3>Large Language Models</h3>
+            <p>Access to state‑of‑the‑art LLMs for customization, fine‑tuning and evaluation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container reveal">
+        <h2>Recent publications</h2>
+        <ul class="pubs">
+          <li><strong>Multiple‑Choice Question Generation Using LLMs:</strong> UMAP Adjunct 2024 — Biancini, Ferrato, Limongelli. <span class="pill">Proceedings</span></li>
+          <li><strong>Artwork Segmentation in Eye‑Tracking Experiments:</strong> UMAP Adjunct 2024 — Ferrato, Limongelli, Mezzini, Sansonetti, Micarelli. <span class="pill">Proceedings</span></li>
+          <li><strong>Cultural Impact on Digital Ecosystems:</strong> IUI 2024 Workshops — Marone, Sansonetti, Gasparetti, Micarelli. <span class="pill">Workshop</span></li>
+          <li><strong>SOCIALIZE 2024:</strong> Companion Proc. IUI 2024 — Gasparetti, Gena, Sansonetti, Tkalcic. <span class="pill">Workshop</span></li>
+          <li><strong>Towards Empathetic Social Robots:</strong> IUI 2024 Workshops — Battisti et al. <span class="pill">Short</span></li>
+        </ul>
+        <a href="#" class="btn btn-ghost">Full list of publications</a>
+      </div>
+    </section>
+
+    <section id="news" class="section alt">
+      <div class="container reveal">
+        <h2>News</h2>
+        <ul class="news">
+          <li>European Researchers’ Night (27 Sep 2024) — results on user profiling and recommendations in art galleries.</li>
+          <li>Rome Technopole project (WG01 Machine Aided Design) at mid‑project milestone (Oct 2024).</li>
+          <li>Talk “From ABC to GPT: The role of AI in inclusive and multicultural education settings” — GCUB XIV International Seminar, 24 Sep 2024, Rome.</li>
+          <li>“Samsung Innovation Campus 2024 – New Constellations of the Feminine” — CSR project hosted by DICITA.</li>
+          <li>SOCIALIZE — The 4th Workshop co‑organized by the group at ACM IUI 2024, South Carolina, USA.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="container reveal">
+        <h2>Contacts</h2>
+        <p>Email: <a href="mailto:ai@dia.uniroma3.it">ai@dia.uniroma3.it</a></p>
+        <p>Pedestrian gate: Via Vito Volterra 48 — 00146 Rome, Italy</p>
+        <p>Alternative gate: Via della Vasca Navale 79 — 00146 Rome, Italy</p>
+        <div class="links-list">
+          <a href="https://www.uniroma3.it/en/" target="_blank" rel="noopener">Roma Tre University</a>
+          <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/" target="_blank" rel="noopener">DICITA Department</a>
+          <a href="https://dtclazio.it/" target="_blank" rel="noopener">Centro di Eccellenza DTC Lazio</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <small>&copy; <span id="year"></span> AI‑Lab @ Roma Tre — Tutti i diritti riservati.</small>
+      <small>&copy; <span id="year"></span> AI‑Lab @ Roma Tre — Roma Tre University. All rights reserved.</small>
     </div>
   </footer>
 
