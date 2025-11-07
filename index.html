@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-Lab @ Roma Tre</title>
+  <meta name="description" content="Laboratorio di Intelligenza Artificiale — Università Roma Tre">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="logo" src="assets/roma-tre-logo.jpg" alt="Roma Tre logo" width="120" height="36">
+        <a class="title" href="#home" aria-label="AI-Lab @ Roma Tre">AI‑Lab @ Roma Tre</a>
+      </div>
+      <nav>
+        <a href="#about">Il laboratorio</a>
+        <a href="#people">Persone</a>
+        <a href="#projects">Progetti</a>
+        <a href="#pubs">Pubblicazioni</a>
+        <a href="#contact" class="btn">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container">
+        <h1 class="reveal">Intelligenza Artificiale — Ricerca, Didattica, Trasferimento</h1>
+        <p class="lead reveal">
+          AI‑Lab @ Roma Tre studia e sviluppa <strong>LLM</strong>, <strong>Recommender Systems</strong>, <strong>Visione</strong> e <strong>Grafi</strong>,
+          coniugando rigore scientifico e applicazioni per industria e pubblica amministrazione.
+        </p>
+        <div class="cta reveal">
+          <a href="#projects" class="btn">Scopri i progetti</a>
+          <a href="#pubs" class="btn btn-ghost">Leggi le pubblicazioni</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid two reveal">
+        <div>
+          <h2>Il laboratorio</h2>
+          <p>
+            Siamo un gruppo di ricerca del Dipartimento di Ingegneria dell’Università degli Studi Roma Tre.
+            Le nostre attività includono modellazione dell’utente, raccomandazione, NLP con LLM, computer vision e analisi su grafi.
+          </p>
+          <ul class="checklist">
+            <li>LLM, RAG e agenti</li>
+            <li>User Modeling &amp; Recommender Systems</li>
+            <li>Visione artificiale, AR e scene analysis</li>
+            <li>Grafi dinamici e TGN</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Dati in breve</h3>
+          <div class="stats">
+            <div><span class="num">20+</span><span class="lbl">progetti</span></div>
+            <div><span class="num">150+</span><span class="lbl">pubblicazioni</span></div>
+            <div><span class="num">10</span><span class="lbl">partner</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="people" class="section alt">
+      <div class="container reveal">
+        <h2>Persone</h2>
+        <p>Docenti, ricercatori, dottorandi e studenti collaborano in modo aperto e interdisciplinare.</p>
+        <div class="avatars">
+          <div class="avatar"><span>FG</span><small>Prof.</small></div>
+          <div class="avatar"><span>AM</span><small>Ric.</small></div>
+          <div class="avatar"><span>GS</span><small>Ric.</small></div>
+          <div class="avatar"><span>LB</span><small>PhD</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h2>Progetti</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>LLM per la trasparenza</h3>
+            <p>Agenti e RAG per interrogare archivi istituzionali con linguaggio naturale.</p>
+          </div>
+          <div class="card">
+            <h3>Raccomandazione multimodale</h3>
+            <p>Modelli temporali, visivi e testuali per arte digitale e industria.</p>
+          </div>
+          <div class="card">
+            <h3>Visione &amp; AR in tempo reale</h3>
+            <p>Pubblicità virtuale e analisi di scena su flussi video live.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pubs" class="section alt">
+      <div class="container reveal">
+        <h2>Pubblicazioni</h2>
+        <ul class="pubs">
+          <li><strong>Vista:</strong> Raccomandazione artistica multimodale (UMAP).</li>
+          <li><strong>TGN:</strong> Dinamiche di comunità su grafi temporali.</li>
+          <li><strong>CuratorNet:</strong> Segnali sociali per ranking di opere.</li>
+        </ul>
+        <a href="#" class="btn btn-ghost">Vedi tutte</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <h2>Contatti</h2>
+        <p>Dipartimento di Ingegneria — Università Roma Tre</p>
+        <p>Email: <a href="mailto:ai-lab@example.uniroma3.it">ai-lab@example.uniroma3.it</a></p>
+        <p>Via della Vasca Navale 79, 00146 Roma</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; <span id="year"></span> AI‑Lab @ Roma Tre — Tutti i diritti riservati.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
